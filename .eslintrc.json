@@ -1,5 +1,6 @@
 {
-  "extends": "standar-with-typescript",
+  "extends": "standard-with-typescript",
+  "rules": { "@typescript-eslint/space-before-function-paren": "off" },
   "parserOptions": {
     "project": "./tsconfig.json"
   }
