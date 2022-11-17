@@ -2,7 +2,8 @@
   "extends": "standard-with-typescript",
   "rules": {
     "@typescript-eslint/space-before-function-paren": "off",
-    "@typescript-eslint/comma-dangle": "off"
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
   },
   "parserOptions": {
     "project": "./tsconfig.json"
