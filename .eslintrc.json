@@ -3,7 +3,8 @@
   "rules": {
     "@typescript-eslint/space-before-function-paren": "off",
     "@typescript-eslint/comma-dangle": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "linebreak-style": ["error", "windows"]
   },
   "parserOptions": {
     "project": "./tsconfig.json"
